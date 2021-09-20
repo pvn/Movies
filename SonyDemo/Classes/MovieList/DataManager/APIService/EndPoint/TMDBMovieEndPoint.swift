@@ -37,7 +37,7 @@ extension TMDBMovieEndPoint: EndPointType {
     }
     
     var task: HTTPTask {
-        let urlParams = ["api_key": "c7c86433e91bd846a70b75dd1487c39a", "language": "en-US", "page": 1, "Content-Type": "application/json"] as [String : Any]
+        let urlParams = ["api_key": "<please-enter-your-api-key>", "language": "en-US", "page": 1, "Content-Type": "application/json"] as [String : Any]
         switch self {
         case .nowPlaying(param: _):
             return .requestParameters(bodyParameters: nil, bodyEncoding: .urlEncoding, urlParameters: urlParams)
