@@ -1,0 +1,12 @@
+{
+  "images" : [
+    {
+      "filename" : "sonyliv_new_revised_header_logo.png",
+      "idiom" : "universal"
+    }
+  ],
+  "info" : {
+    "author" : "xcode",
+    "version" : 1
+  }
+}
